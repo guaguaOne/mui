@@ -1,0 +1,56 @@
+.mui-bar-nav ~ .mui-content{
+	padding-top: 80px;
+}
+form.mui-input-group{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+button{
+	width: 90%;
+	margin: 10px 5%;
+}
+small{
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#face{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+}
+#face img{
+	height: 60px;
+	width: 60px;
+}
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.8);
+}
+#clip-area{
+	position: relative;
+	z-index: 1000;
+	top: -300px;
+	border: 1px solid red;
+}
+#clip-area header{
+	background: none;
+	box-shadow: none;
+}
+#clip-area .mui-content{
+	background: none;
+	height: 100vw;
+}
+#clip-area #put-img{
+	
+}

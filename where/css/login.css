@@ -1,0 +1,16 @@
+.mui-bar-nav ~ .mui-content{
+	padding-top: 80px;
+}
+form.mui-input-group{
+	padding-bottom: 10px;
+}
+button{
+	width: 90%;
+	margin: 10px 5%;
+}
+small{
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}

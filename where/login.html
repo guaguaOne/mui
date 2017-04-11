@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">登录</h1>
+		</header>
+		<div class="mui-content">
+		    <form action="php/login.php" method="post" class="mui-input-group">
+		    	<div class="mui-input-row">
+		    		<label>账号</label>
+		    		<input type="text" name="account" class="mui-input-clear"/>
+		    	</div>
+		    	<div class="mui-input-row">
+		    		<label>密码</label>
+		    		<input type="text" name="password" class="mui-input-password"/>
+		    	</div>
+		    	<button type="submit" class="mui-btn mui-btn-primary">登录</button>
+		    	<small>(没有账号?<a href="register.html">注册)</a></small>
+		    </form>
+		</div>
+	</body>
+</html>

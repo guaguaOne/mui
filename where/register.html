@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/imgareaselect-animated.css">
+		<script src="js/mui.min.js"></script>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.imgareaselect.min.js"></script>
+		<link rel="stylesheet" href="css/register.css" />
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">注册</h1>
+		</header>
+		<div class="mui-content">
+		    <form id="register" onsubmit="return false;" class="mui-input-group" enctype="multipart/form-data">
+		    	<div id="face">
+		    		<img src="image/face.png" alt="" />
+		    	</div>
+		    	<input type="file" style="display: none;" name="face" class="mui-input-clear face"/>
+		    	<div class="mui-input-row">
+		    		<label>账号</label>
+		    		<input type="text" name="account" class="mui-input-clear account"/>
+		    	</div>
+		    	<div class="mui-input-row">
+		    		<label>密码</label>
+		    		<input type="text" name="password" class="mui-input-password password"/>
+		    	</div>
+		    	<div class="mui-input-row">
+		    		<label>昵称</label>
+		    		<input type="text" name="nickname" class="mui-input-clear nickname"/>
+		    	</div>
+		    	<button type="submit" class="register mui-btn mui-btn-primary">注册</button>
+		    	<small>(已有账号?<a href="login.html">登录)</a></small>
+		    </form>
+		</div>
+		<div id="bg" class="mui-backdrop"></div>
+		<div id="clip-area">
+			<header class="mui-bar mui-bar-nav">
+			    <a class="mui-btn mui-btn-warning mui-pull-left">取消</a>
+			    <a class="mui-btn mui-btn-warning mui-pull-right">确定</a>
+			</header>
+			<div class="mui-content">
+			    <div id="put-img">
+			    	123
+			    </div>
+			</div>
+		</div>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
